@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Blinds Simulator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="blind-container closed">
+        <div class="blind"></div>
+        <div class="blind"></div>
+        <div class="blind"></div>
+        <div class="blind"></div>
+        <div class="blind"></div>
+        <div class="blind"></div>
+        <div class="blind"></div>
+        <div class="blind"></div>
+        <div class="blind"></div>
+        <div class="blind"></div>
+        <div class="blind"></div>
+    </div>
+
+    <div id="temperature-display">Temperature: 25°C</div>
+    <div id="ambient-light-display">Ambient Light: 75%</div>
+    <div id="blinds-position">Blinds Position: 50% open</div>
+
+    <input type="range" id="blinds-slider" min="0" max="100" value="50" />
+    
+    <script src="script.js"></script>
+</body>
+</html>
